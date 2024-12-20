@@ -32,7 +32,7 @@ menuOpenButton.addEventListener("click", () => {
     pagination: {
       el: '.swiper-pagination',
       clickable: true,
-      dynamicBllets: true,
+      dynamicBullets: true,
     },
   
     // Navigation arrows
