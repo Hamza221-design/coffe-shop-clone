@@ -18,7 +18,7 @@ menuOpenButton.addEventListener("click", () => {
     menuOpenButton.click ());
 
 //  Close menu when  nav links is clicked
- navLinks.foreach(link => {
+ navLinks.forEach(link => {
     link.addEventListener("click", () =>  menuOpenButton.click);
  });
 
